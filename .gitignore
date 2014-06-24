@@ -1,0 +1,9 @@
+.DS_Store
+www/**
+site/_*/**
+*.swp
+*.swo
+*.hi
+*.ho
+*.o
+site/site
