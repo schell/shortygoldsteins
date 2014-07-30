@@ -1,3 +1,4 @@
+dist
 .DS_Store
 www/**
 site/_*/**
@@ -6,4 +7,8 @@ site/_*/**
 *.hi
 *.ho
 *.o
-site/site
+site/_*
+.cabal-sandbox
+.hdevtools-sock
+cabal.sandbox.config
+www

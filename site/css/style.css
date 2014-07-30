@@ -20,6 +20,10 @@ a:hover {
     padding:0;
 }
 
+.container:after {
+    margin-bottom:4em;
+}
+
 .navbar-brand {
     padding:5px;
 }
@@ -41,8 +45,7 @@ a:hover {
 }
 
 .pic {
-    margin-top:40px;
-    margin-bottom:40px;
+    margin-bottom:2em;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
@@ -75,6 +78,26 @@ a:hover {
     margin:1em auto;
 }
 
+.carousel-fade .item {
+    -webkit-transition: opacity 3s;
+    -moz-transition: opacity 3s;
+    -ms-transition: opacity 3s;
+    -o-transition: opacity 3s;
+    transition: opacity 3s;
+}
+
+.carousel-fade .active.left {
+    left:0;
+    opacity:0;
+    z-index:2;
+}
+
+.carousel-fade .next {
+    left:0;
+    opacity:1;
+    z-index:1;
+}
+
 .footer address {
     padding-top:0.3em;
 }
@@ -83,17 +106,18 @@ a:hover {
     font-size:2em;
 }
 
+.social > a {
+ color: #428bca;
+}
+
+.social > a:hover {
+ color: #2a6496;
+ }
+
 .social li {
     padding:5px;
 }
 
 p {
     line-height:24px;
-}
-
-.end {
-    margin-top:4em;
-    width:100%;
-    height:40px;
-    background-color:#101010;
 }
