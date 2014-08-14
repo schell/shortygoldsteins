@@ -102,6 +102,14 @@ a:hover {
     padding-top:0.3em;
 }
 
+.bluelink {
+ color: #428bca;
+}
+
+.bluelink:hover {
+ color: #2a6496;
+}
+
 .social {
     font-size:2em;
 }
