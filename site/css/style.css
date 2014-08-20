@@ -11,9 +11,26 @@ a:hover {
   color:rgb(143,79,141);
 }
 
-.navbar {
+.navback {
+    left:0px;
+    right:0px;
     height:80px;
-    border-radius:0px;
+    background-color:#222;
+    position:absolute;
+}
+
+.navbar>.container {
+    background-color:#222;
+    padding-right:0px;
+}
+
+.navbar-header {
+    height:80px;
+}
+
+.navbar-inverse {
+    background-color:transparent;
+    border:none;
 }
 
 .container>.navbar-collapse {
@@ -46,10 +63,6 @@ a:hover {
 
 .pic {
     margin-bottom:2em;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-    background-color:transparent;
 }
 
 .links {
